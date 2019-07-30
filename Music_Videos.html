@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Wizardville.co.za</title>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <script type="text/javascript">
+  var w = window.innerWidth || document.documentElement.clientWidth ||
+  document.body.clientWidth;
+   var h = window.innerHeight || document.documentElement.clientHeight ||
+  document.body.clientHeight;
+</script>
+<script type="text/javascript">
+  function goBack() {
+  window.history.back()
+}
+</script>
+</head>
+<body>
+  <div id="header">
+<h1>WIZARDVILLE</h1>
+</div>
+    <ul>
+      <li><a href="home.html"> home </a></li>
+      <li><a href="News.html"> News </a></li>
+        <li><a href="Photos.html"> Photos </a></li>
+        <li><a href="Music.html"> Music </a></li>
+        <li><a class="active" href="Music_Videos.html"> music videos </a></li>
+        <li><a href="Movies.html"> Movies </a></li>
+        <li><a href="Tv Series.html"> Tv Series</a></li>
+          <li><a href="Contact.html"> Contact </a></li>
+    </ul>   
+  <section>
+<div style="margin-left: 11%; padding:1px 13px;top: 30px; height:100%;">
+  <div style="margin-top: 5%; padding:1px 10px;">
+
+    <h1> MUSIC VIDOES</h1>
+    <div style="text-align: center">
+      <button onclick="PlayPause()">Play/Pause</button>
+      <button onclick="next()">next</button>
+      <button onclick="back()">back</button>
+      <button onclick="makebig()">big</button>
+      <br><br>
+      <video id="video1" width="420">
+       <source src="C:\Users\sandile\Videos\MyWebApp\Shekhinah - Suited.mp4" type="video/mp4">
+      </video>
+    </div>
+<script >
+  var myVideo = document.getElementById("video1");
+function PlayPause() {
+  if (myVideo.Paused)
+    myVideo.Play();
+  else
+    myVideo.Pause();
+}
+function next() {
+  if (myVideo.next)
+    myVideo.next();
+  else
+    myVideo.Play();
+}
+function back() {
+  if (myVideo.back)
+    myVideo.back();
+  else
+    myVideo.Play();
+}
+function makebig() {
+  myVideo.width = 600;
+}
+
+</script>
+
+ 
+    </div> 
+
+
+
+
+<div id="absolute">
+  <h1>Playlist</h1>
+  <hr/>
+  <ol>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\50 Cent ft. Chris Brown - I'm The Man.mp4" target="iframe_a">50 Cent ft. Chris Brown - I'm The Man(Official music video).mp4</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\A$AP Ferg - Shabba ft. A$AP ROCKY (Official Video).mp4" target="iframe_a">A$AP Ferg - Shabba ft. A$AP ROCKY (Official Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\A$AP Rocky - Fashion Killa (Explicit Version).mp4" target="iframe_a">A$AP Rocky - Fashion Killa (Explicit Version) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta.mp4" target="iframe_a">A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Adrian Marcel - 2AM. ft. Sage The Gemini (Official Video).mp4" target="iframe_a">Adrian Marcel - 2AM. ft. Sage The Gemini (Official Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\AKA - Jika ft. Yanga Chief.mp4" target="iframe_a">AKA - Jika ft. Yanga Chief </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Alicia Keys - Girl On Fire (Official Music Video).mp4" target="iframe_a"> Alicia Keys - Girl On Fire (Official Music Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Alicia Keys - Un-thinkable (I'm Ready) [Official Music Video].mp4" target="iframe_a">Alicia Keys - Un-thinkable (I'm Ready) [Official Music Video] </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\APES T - THE CARTERS.mp4" target="iframe_a"> APES T - THE CARTERS</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\A-Reece - Holding Hands (Official Video).mp4" target="iframe_a">A-Reece - Holding Hands (Official Video) </li>
+   <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ashanti - Foolish (Official Music Video).mp4" target="iframe_a">Ashanti - Foolish (Official Music Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\August Alsina - Benediction ft. Rick Ross (Official Music Video).mp4" target="iframe_a">August Alsina - Benediction ft. Rick Ross (Official Music Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\August Alsina - Get Ya Money ft. Fabolous (Official Video).mp4" target="iframe_a"> August Alsina - Get Ya Money ft. Fabolous (Official Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\August Alsina - Hip Hop (Explicit).mp4" target="iframe_a"> August Alsina - Hip Hop (Explicit)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\August Alsina - Song Cry.mp4" target="iframe_a">August Alsina - Song Cry </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\B.o.B - 4 Lit (feat. T.I. & Ty Dolla $ign) (Official Video).mp4" target="iframe_a">B.o.B - 4 Lit (feat. T.I. & Ty Dolla $ign) (Official Video) </li>
+      <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Beyoncé - Drunk in Love (Explicit) ft. JAY Z.mp4" target="iframe_a">Beyoncé - Drunk in Love (Explicit) ft. JAY Z </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Beyoncé - XO (Video).mp4" target="iframe_a"> Beyoncé - XO (Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Mlindo The Vocalist - AmaBlesser ft. DJ Maphorisa.mp4" target="iframe_a">Mlindo The Vocalist - AmaBlesser ft. DJ Maphorisa </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\MAJOR LEAGUE - DO BETTER Feat Patoranking, Riky Rick & Kly (Official Music Video).mp4" target="iframe_a">MAJOR LEAGUE - DO BETTER Feat Patoranking, Riky Rick & Kly (Official Music Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ma-E - uGOGO (Official Music Video).mp4" target="iframe_a">Ma-E - uGOGO (Official Music Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ma-E - Siyaz'philela (Official Music Video).mp4" target="iframe_a">Ma-E - Siyaz'philela (Official Music Video) </li>
+      <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ma-E - Lie 2 Me Featuring AKA (Official Music Video).mp4" target="iframe_a">Ma-E - Lie 2 Me Featuring AKA (Official Music Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ma-E - Hlasela Official music video (Movie Trailer).mp4" target="iframe_a">Ma-E - Hlasela Official music video (Movie Trailer) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Kid Tini - Cinga (Official Music Video).mp4" target="iframe_a"> Kid Tini - Cinga (Official Music Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Kid Ink - Show Me (Explicit) ft. Chris Brown.mp4" target="iframe_a">Kid Ink - Show Me (Explicit) ft. Chris Brown </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Khalid - Better (Official Video).mp4" target="iframe_a">Khalid - Better (Official Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\K.O - Supa Dupa.mp4" target="iframe_a">K.O - Supa Dupa </li>
+      <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Jaden - SOHO.mp4" target="iframe_a">Jaden - SOHO</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Jaden - Icon.mp4" target="iframe_a">Jaden - Icon</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\JAY-Z - The Story of O.J.mp4" target="iframe_a">JAY-Z - The Story of O.J</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Emtee - Winning Ft Nasty C.mp4" target="iframe_a">Emtee - Winning Ft Nasty C</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Emtee - Thank you (Official music video).mp4" target="iframe_a">Emtee - Thank you (Official music video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Ciara - Dance Like We're Making Love (Official Video).mp4" target="iframe_a">Ciara - Dance Like We're Making Love (Official Video)</li>
+      <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\DJ Fanatic ft Gigi Lamayne & Bliq Pull Up Official Music Video.mp4" target="iframe_a">DJ Fanatic ft Gigi Lamayne & Bliq Pull Up Official Music Video</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\DJ Ganyani - Emazulwini ft. Nomcebo.mp4" target="iframe_a">DJ Ganyani - Emazulwini ft. Nomcebo </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\DJ Khaled - I Wanna Be With You (Explicit) ft. Nicki Minaj, Future, Rick Ross.mp4" target="iframe_a">DJ Khaled - I Wanna Be With You (Explicit) ft. Nicki Minaj, Future, Rick Ross </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\DJ Khaled ft. Rihanna, Bryson Tiller - Wild Thoughts (Official Video).mp4" target="iframe_a">DJ Khaled ft. Rihanna, Bryson Tiller - Wild Thoughts (Official Video) </li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Chris Brown - Back To Love (Official Video).mp4" target="iframe_a">Chris Brown - Back To Love (Official Video)</li>
+    <li><a href="C:\Users\sandile\Videos\MyWebApp\Music_Videos\Cassper Nyovest - Push Through the Pain.mp4" target="iframe_a">Cassper Nyovest - Push Through the Pain </li>
+  </ol>
+  <hr />
+</div> 
+</section>
+<div id="footer">
+  Copyright @ Wizardville.co.za
+</div>
+</section>
+</body>
+</html>
